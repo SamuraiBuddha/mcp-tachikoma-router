@@ -1,0 +1,20 @@
+# MCP SDK
+mcp>=0.1.0
+
+# Router communication
+requests>=2.31.0
+paramiko>=3.4.0  # SSH for ASUS/OpenWRT
+aiohttp>=3.9.0
+
+# Data handling
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+
+# Utilities
+click>=8.1.0
+rich>=13.7.0  # Pretty CLI output
+aiofiles>=23.2.0
+
+# Router-specific libraries
+pyunifi>=2.21  # UniFi Controller
+netmiko>=4.3.0  # Multi-vendor SSH
